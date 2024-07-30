@@ -1,0 +1,377 @@
+@import url('../fonts.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    text-decoration: none; 
+}
+
+a{
+  cursor: pointer;
+}
+
+.normal-text{
+    font-size: 1.5rem;
+}
+
+.title-text{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: #123c85;
+    
+}
+
+.bold-title-text{
+  font-weight: bold;
+}
+
+.big-text{
+    font-size: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+/* navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Добавлено для вертикального выравнивания элементов */
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px; /* Уменьшено, если хотите, чтобы навигация была компактнее */
+  padding-bottom: 20px;
+}
+
+.fixed-navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Фон вашей навигации */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+  z-index: 1000;
+}
+
+.nav {
+  transition: background-color 0.3s ease, text-decoration 0.3s ease; /* Переход для навигационных элементов */
+  cursor: pointer; /* Добавлено для указания, что элемент кликабельный */
+}
+
+.nav:hover {
+  text-decoration: underline; /* Подчеркивание текста при наведении */
+}
+
+.nav-block {
+  display: flex;
+  align-items: center; /* Добавлено для выравнивания по вертикали */
+  column-gap: 50px;
+}
+
+.nav-site {
+  display: flex;
+  column-gap: 50px;
+}
+
+.resume {
+  background-color: #0965FF;
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease; /* Анимация при изменении размера */
+}
+
+.resume:hover {
+  transform: scale(1.1); /* Увеличение размера на 10% при наведении */
+}
+
+.logo, span {
+  font-family: 'Montserrat Alternates', sans-serif !important;
+  color: #123c85;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease; /* Анимация при изменении размера */
+}
+
+.logo:hover, span:hover{
+  transform: scale(1.1); /* Увеличение размера на 10% при наведении */
+}
+
+
+
+
+
+/* hiBlock */
+
+.welcome{
+    background-color: #F1F4F8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 160px;
+    align-items: center;
+
+}
+.line{
+    width: 90%;
+    border: 1px solid #7D7B79;
+    margin: 25px 0px;
+}
+.welcome-info-block{
+  width: 60%;
+   
+}
+.hi{
+    font-size: 2.25rem;
+}
+
+/* portfolio */
+
+
+/* slider */
+.slider{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .slider-skills, .slider-title, .slider-text{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+  }
+
+  .slider-title{
+    color: #123c85;
+    font-weight: bold;
+  }
+
+  .slider-skills{
+    font-weight: bold;
+  }
+
+  .slider-text{
+    margin-bottom: 30px;
+  }
+
+  
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+    cursor: pointer; 
+    transition: transform 0.2s;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    text-indent: -999em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .slick-dots li button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    opacity: 0.5;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+  }
+
+ 
+  /* skills */
+
+  .Skills{
+    margin: 0px 100px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  
+  .white-block{
+    /* border: 3px solid #dcdddf; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+  }
+  
+
+  .skill-image{
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+  }
+
+  .skill-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+
+  }
+  
+  /* footer */
+
+  .footer{
+    background-color: #F1F4F8;
+    padding: 30px 100px;
+  }
+
+  .footer-text{
+    margin-bottom: 15px;
+  }
+
+  .contact-email{
+    margin-bottom: 8px;
+  }
+
+  .copyright{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* Mobile styles menu */
+.menu-toggle {
+  display: none; 
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-block {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0; 
+    width: 60%; 
+    height: 100%;
+    background-color: white; 
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); 
+    z-index: 2000; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu a {
+    margin-bottom: 10px; 
+    color: black; 
+    text-decoration: none; 
+  }
+}
+
+
+
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px; /* Уменьшенное значение отступов */
+  }
+
+  .resume {
+    width: 100%; /* Изменяем ширину резюме на 100% для мобильных устройств */
+    margin-bottom: 20px; /* Добавить отступ снизу */
+  }
+
+  .welcome {
+    padding: 120px 20px; /* Уменьшаем Padding для мобильной версии */
+    flex-direction: column; /* Переключаем на вертикальную ориентацию */
+    align-items: center; /* Центрируем элементы */
+  }
+
+  .welcome-info-block {
+    width: 100%; /* Ширина блока приветствия для мобильных устройств */
+  }
+
+  .Skills {
+    flex-direction: column; /* Упрощаем расположение элементов */
+    align-items: center; /* Центрируем элементы */
+    margin: 0 20px; /* Уменьшаем отступы */
+  }
+
+  .white-block {
+    width: 90%; /* Ширина белого блока */
+    margin-bottom: 20px; /* Отступ снизу между карточками */
+  }
+
+  .slick-slide img {
+    margin-right: 0; /* Убираем отступы между слайдами в мобильной версии */
+  }
+
+  .footer {
+    padding: 20px 20px; /* Уменьшаем отступы */
+  }
+
+  .footer-text, .contact-email, .copyright {
+    font-size: 0.9rem; /* Уменьшаем размер шрифта для мобильных устройств */
+  }
+}
