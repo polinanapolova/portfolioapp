@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolioapp/static/css/main.8ff833d1.css",
+    "main.js": "/portfolioapp/static/js/main.69f39558.js",
+    "static/js/453.acca0757.chunk.js": "/portfolioapp/static/js/453.acca0757.chunk.js",
+    "static/media/gto.png": "/portfolioapp/static/media/gto.9d52b64feb59499b1a6f.png",
+    "static/media/photo2.png": "/portfolioapp/static/media/photo2.36027ec612e6b846be40.png",
+    "static/media/greenmic.png": "/portfolioapp/static/media/greenmic.fd7662fb458198f1e251.png",
+    "static/media/fizkultura.png": "/portfolioapp/static/media/fizkultura.b37a8a570dbb5cfd9a8c.png",
+    "static/media/seshat.png": "/portfolioapp/static/media/seshat.b04877ca6a4895fdd461.png",
+    "static/media/bot.png": "/portfolioapp/static/media/bot.fc78ae7b8448e627747c.png",
+    "static/media/we.png": "/portfolioapp/static/media/we.695df8f0c0e5e7635524.png",
+    "static/media/MontserratAlternates-Medium.ttf": "/portfolioapp/static/media/MontserratAlternates-Medium.ae41054b33bf901739c8.ttf",
+    "static/media/Montserrat-Regular.ttf": "/portfolioapp/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/slick.svg": "/portfolioapp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolioapp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolioapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolioapp/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolioapp/index.html",
+    "main.8ff833d1.css.map": "/portfolioapp/static/css/main.8ff833d1.css.map",
+    "main.69f39558.js.map": "/portfolioapp/static/js/main.69f39558.js.map",
+    "453.acca0757.chunk.js.map": "/portfolioapp/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ff833d1.css",
+    "static/js/main.69f39558.js"
+  ]
+}
